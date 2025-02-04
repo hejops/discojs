@@ -24,7 +24,7 @@ export default {
     }),
     commonjs(),
     typescript({
-      outDir:pkg.files[0],
+      outDir: pkg.files[0],
     }),
     replace({
       preventAssignment: true,
